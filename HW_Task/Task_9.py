@@ -23,6 +23,7 @@ def jacket():
 
 @app.route('/shoes/')
 def shoes():
+
     return render_template('shoes.html')
 
 
