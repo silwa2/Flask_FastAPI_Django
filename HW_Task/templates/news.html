@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Новости</title>
+</head>
+<body>
+    {% for item in news %}
+      <h2>{{ item.heading }}</h2>
+      <h3>{{ item.description }}</h3>
+      <h5>{{ item.date }}</h5>
+    {% endfor %}
+</body>
+</html>
